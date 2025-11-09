@@ -49,7 +49,7 @@
 - `Expertise`
 
 
-## 🔗 Relationships and Constraints
+## Relationships and Constraints
 
 ### **1. Borrows (Member → Book)**
 - **Cardinality:** M:N  
