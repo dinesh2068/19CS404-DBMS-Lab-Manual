@@ -1,17 +1,17 @@
 # Experiment 1: ER Diagram
 
 
-## 🧩 Scenario Chosen
+## Scenario Chosen
 **Library Management System**
 
 
-## 🧠 ER Diagram
+## ER Diagram
 
 ![alt text](image.png)
 
 ![alt text](image-1.png)
 
-## 🏷️ Entities and Attributes
+## Entities and Attributes
 
 ### **Member**
 - `Member_ID` *(Primary Key)*
@@ -87,7 +87,7 @@
 - **Description:** Members can attend multiple events, and events can have multiple participating members.
 
 
-## ⚙️ Design Choices
+## Design Choices
 
 ### **1. Separate Loan Entity**
 To capture borrowing activities clearly, connecting Members and Books through a many-to-many relationship. Enables tracking of `Loan_Date` and `Return_Date`.
@@ -105,5 +105,5 @@ Speakers are managed separately to allow guest lectures or workshops, expanding 
 Members can borrow books and participate in events, reflecting both academic and community aspects of a library.
 
 
-## ✅ Result
+## Result
 Thus, the **ER Diagram for the Library Management System** has been successfully designed to represent the core entities, attributes, and relationships required for efficient management of library operations including books, members, loans, fines, rooms, and events.
